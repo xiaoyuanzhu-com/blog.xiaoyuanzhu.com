@@ -5,7 +5,11 @@ pubDate: 'Dec 02 2025'
 heroImage: '/images/data-native.png'
 ---
 
-## Your Apps Are Temporary. Your Data Is Forever.
+When was the last time you wanted to switch the notes app — but dreaded the thought of migrating all your data?
+
+Every company knows data is valuable — but do you preserve yours? Your reading history, your favorite films, your travels, your five-star meals, your running routes, your fleeting ideas.
+
+#### Your Apps Are Temporary. Your Data Is Forever.
 
 app centric vs data centric, side by side
 
