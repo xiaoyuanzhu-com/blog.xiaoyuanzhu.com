@@ -5,13 +5,13 @@ pubDate: 'Dec 02 2025'
 heroImage: '/images/data-native.png'
 ---
 
-When was the last time you wanted to switch the notes app — but dreaded the thought of migrating all your data?
+When was the last time you wanted to switch notes apps — but dreaded migrating all your data?
 
-Every company knows data is valuable — but do you preserve yours? Your reading history, your favorite films, your travels, your five-star meals, your running routes, your fleeting ideas.
+Every company knows data is valuable — but do you preserve yours? Your reading history, your favorite films, your travels, your five-star meals, your running routes, your thoughts and ideas.
 
-#### Your Apps Are Temporary. Your Data Is Forever.
+**Your data should grow. Apps should contribute to it, not take a cut.**
 
-app centric vs data centric, side by side
+There's a better way — for users and app builders alike: data native.
 
 <div style="display: flex; gap: 1rem; align-items: center;">
   <img src="/images/app-centric.png" alt="App Centric Architecture" style="flex: 1; max-width: 45%;" />
