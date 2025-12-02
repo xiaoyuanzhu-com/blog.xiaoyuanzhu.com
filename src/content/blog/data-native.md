@@ -9,7 +9,7 @@ When was the last time you wanted to switch notes apps — but dreaded migrating
 
 Every company knows data is valuable — but do you preserve yours? Your reading history, your favorite films, your travels, your five-star meals, your running routes, your thoughts and ideas.
 
-**Your data should grow. Apps should contribute to it, not take a cut.**
+**You own and grow your data. Apps use it, contribute to it — but don't take a cut.**
 
 There's a better way — for users and app builders alike: data native.
 
