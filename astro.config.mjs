@@ -8,4 +8,12 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
 	site: 'https://blog.xiaoyuanzhu.com',
 	integrations: [mdx(), sitemap()],
+	image: {
+		service: {
+			entrypoint: 'astro/assets/services/sharp',
+			config: {
+				limitInputPixels: false,
+			},
+		},
+	},
 });
