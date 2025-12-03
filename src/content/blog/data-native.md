@@ -95,21 +95,21 @@ Apps can build their own indexes, embeddings, or caches for performance and cust
 
 Obsidian stores your notes as plain markdown files. Immich lets you use external photo libraries. Obsidian users can easily [use other tools with their data](https://www.reddit.com/r/ObsidianMD/comments/1mdeeka/obsidian_claude_code_gemini/) — like Claude Code or Gemini. Notion also offers AI features, but the difference in flexibility is clear.
 
-## Challenges
+## Open Questions
 
-Data native shifts responsibility to users and demands more from apps.
+Data native shifts responsibility to users and demands more from apps. Some things remain unsolved.
 
 **Security & Privacy**
 
-A centralized data folder is a high-value target. One breach exposes everything. How do we avoid granting every app full access?
+A centralized data folder is a high-value target. How do we grant apps access without exposing everything?
 
 **User Burden**
 
-Backup, sync, and data protection now fall on users. It could take some effort and technical know-how.
+Backup, sync, and data protection fall on users. Can we make this effortless?
 
-**App Complexity & Chaos**
+**App Coordination**
 
-Apps need to learn and adapt to arbitrary data structures. Also multiple apps writing to the same data folder could be messy.
+Apps need to adapt to arbitrary structures. Multiple apps writing to the same folder could conflict. What conventions help?
 
 ## A Starting Point
 
