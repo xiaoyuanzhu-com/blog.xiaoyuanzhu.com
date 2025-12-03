@@ -9,12 +9,12 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-# Production stage - serve static files with nginx
-FROM nginx:alpine AS runtime
+# Production stage - serve static files with Caddy
+FROM caddy:alpine AS runtime
 
-COPY --from=build /app/dist /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY --from=build /app/dist /srv
+COPY Caddyfile /etc/caddy/Caddyfile
 
 EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile"]
