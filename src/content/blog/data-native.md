@@ -83,19 +83,25 @@ Previously, only tech companies had the ability to collect and utilize data at s
 
 ## How Data Native Works
 
-**Layer 1: Your Data (Permanent)**
+It shifts complexity to apps, but the idea is simple.
 
-Plain files. Human-readable. Organized however you want. Yours forever. Open, common formats — text over proprietary databases, markdown over custom formats. Your data should be readable without the app.
+**The data folder**
 
-**Layer 2: App Caches (Disposable)**
+Folders and files, organized per your preferences.
 
-Apps keep indexes, embeddings, thumbnails. All rebuildable. Switch apps? The new one rebuilds from your data. No export, no import, no lock-in.
+Preferably in open, common formats — text over proprietary databases, markdown over custom formats — for maximum longevity, portability, and the widest app support.
 
-**Layer 3: AI Interpretation (Adaptive)**
+**Apps**
 
-Apps use AI to understand *your* organizational style. They adapt to your structure instead of forcing you into theirs.
+Apps read from your data folder and adapt to your structure. With AI, they can understand your naming conventions, folder organization, and file formats.
 
-**This already works today.** Obsidian stores your notes as plain markdown files. Immich lets you use external photo libraries. These aren't edge cases — they're early adopters of a pattern that's ready for wider adoption.
+Apps write content back to your data folder — in the same open formats and following the same structure conventions. Your data grows in one place.
+
+Apps can build their own indexes, embeddings, or caches for performance and custom features — largely rebuildable. Switch apps? The new one reads your folder, rebuilds what it needs, and you're ready. Some app-specific data may not carry over, but if it matters, it should be in user data folder. No export, no import, no lock-in.
+
+**Early adopters**
+
+Obsidian stores your notes as plain markdown files. Immich lets you use external photo libraries. Obsidian users can easily [use other tools with their data](https://www.reddit.com/r/ObsidianMD/comments/1mdeeka/obsidian_claude_code_gemini/) — like Claude Code or Gemini. Notion also offers AI features, but the difference in flexibility is clear.
 
 ---
 
