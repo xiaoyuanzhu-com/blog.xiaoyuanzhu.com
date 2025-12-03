@@ -63,21 +63,21 @@ Data Native proposes:
 
 In the past, due to technical complexity and business incentives to retain users, apps tended to work in isolation.
 
+**Apps are tiktoking.**
+
+AI coding tools make building apps easier than ever. Apps are becoming more lightweight and transient. We're even seeing instant apps built for a single purpose, used once, then discarded. More apps means more competition — and more shutdowns, pivots, acquihires. Apps come and go. Your data spans decades.
+
 **Rich choices of apps.**
 
-How many notes apps can you name? How many fitness apps have you tried? Today we have thriving app ecosystems. Trying a new one should be easy — switching shouldn't require migration at all.
-
-**App lifecycles are shrinking.**
-
-AI coding tools make building apps easier than ever. More apps means more competition — and more shutdowns, pivots, acquihires. Apps come and go. Your data spans decades.
+How many notes or fitness apps have you come across and wanted to try? We already have thriving app ecosystems — and AI is accelerating this even further. We'd want effortless switching, or using multiple apps at once — no data loss, no migration hassle.
 
 **AI makes adaptive apps possible.**
 
-Apps can now work without rigid schemas. AI can infer folder structures, understand naming conventions, tolerate messy organization. The old excuse — "we need to control the format" — no longer holds.
+Previously, most apps needed rigid structures to work. Only a few, like file explorers, could handle arbitrary user data. Today AI provides a way out, making it possible for more apps to adapt to how you organize things.
 
-**AI makes your data more valuable.**
+**Your data is more usable, thus more valuable.**
 
-Fragmented data across 50 apps? Your AI sees fragments. Unified data you own? Your AI sees your whole life.
+Previously, only tech companies had the ability to collect and utilize data at scale. Today with AI, individuals can also derive value from their own data — making it more worthwhile to own and grow.
 
 ---
 
