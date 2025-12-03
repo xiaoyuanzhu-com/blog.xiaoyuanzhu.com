@@ -19,8 +19,6 @@ There's a better way — for users and app builders alike: Data Native.
   <img src="/images/data-native.png" alt="Data Native Architecture" style="flex: 1; max-width: 45%;" />
 </div>
 
----
-
 ## Why You Should Own and Grow Your Data
 
 Take a step back, why do we even care about data native?
@@ -41,8 +39,6 @@ Imagine deeper access: your searches, bookmarks, watch history, emails, calendar
 
 As physical and mental labor get automated, what remains distinctly yours — your tastes, thoughts, connections to the real world — could be more valuable than ever.
 
----
-
 ## What Is Data Native
 
 Today most apps work in data silos — each app has its own database, its own format, its own way of organizing things. Want to switch? Export is the best they can offer.
@@ -57,35 +53,31 @@ Data Native proposes:
 
 **Your data is the environment. Apps are visitors.**
 
----
-
 ## Why Now
 
 In the past, due to technical complexity and business incentives to retain users, apps tended to work in isolation.
 
-**Apps are tiktoking.**
+**Apps Are Tiktoking**
 
 AI coding tools make building apps easier than ever. Apps are becoming more lightweight and transient. We're even seeing instant apps built for a single purpose, used once, then discarded. More apps means more competition — and more shutdowns, pivots, acquihires. Apps come and go. Your data spans decades.
 
-**Rich choices of apps.**
+**Rich Choices of Apps**
 
 How many notes or fitness apps have you come across and wanted to try? We already have thriving app ecosystems — and AI is accelerating this even further. We'd want effortless switching, or using multiple apps at once — no data loss, no migration hassle.
 
-**AI makes adaptive apps possible.**
+**AI Makes Adaptive Apps Possible**
 
 Previously, most apps needed rigid structures to work. Only a few, like file explorers, could handle arbitrary user data. Today AI provides a way out, making it possible for more apps to adapt to how you organize things.
 
-**Your data is more usable, thus more valuable.**
+**Your Data Is More Usable, Thus More Valuable**
 
 Previously, only tech companies had the ability to collect and utilize data at scale. Today with AI, individuals can also derive value from their own data — making it more worthwhile to own and grow.
-
----
 
 ## How Data Native Works
 
 It shifts complexity to apps, but the idea is simple.
 
-**The data folder**
+**The Data Folder**
 
 Folders and files, organized per your preferences.
 
@@ -99,19 +91,25 @@ Apps write content back to your data folder — in the same open formats and fol
 
 Apps can build their own indexes, embeddings, or caches for performance and custom features — largely rebuildable. Switch apps? The new one reads your folder, rebuilds what it needs, and you're ready. Some app-specific data may not carry over, but if it matters, it should be in user data folder. No export, no import, no lock-in.
 
-**Early adopters**
+**Early Adopters**
 
 Obsidian stores your notes as plain markdown files. Immich lets you use external photo libraries. Obsidian users can easily [use other tools with their data](https://www.reddit.com/r/ObsidianMD/comments/1mdeeka/obsidian_claude_code_gemini/) — like Claude Code or Gemini. Notion also offers AI features, but the difference in flexibility is clear.
 
----
+## Challenges
 
-## Common Questions
+Data native shifts responsibility to users and demands more from apps.
 
-**"Won't apps break if my data is messy?"**
-AI handles variation. Plain files are *less* fragile than app databases, not more.
+**Security & Privacy**
 
-**"Don't apps need databases?"**
-For performance, yes. But as caches — not sources of truth. Rebuildable. Disposable.
+A centralized data folder is a high-value target. One breach exposes everything. How do we avoid granting every app full access?
 
-**"What if I'm not technical?"**
-Data Native apps should feel *simpler*. Folders are intuitive. It's today's model — sync conflicts, export formats, migration wizards — that's complicated.
+**User Burden**
+
+Backup, sync, and data protection now fall on users. It could take some effort and technical know-how.
+
+**App Complexity & Chaos**
+
+Apps need to learn and adapt to arbitrary data structures. Also multiple apps writing to the same data folder could be messy.
+
+These aren't dealbreakers — but they're not solved yet either.
+
