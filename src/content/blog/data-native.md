@@ -111,8 +111,22 @@ Backup, sync, and data protection now fall on users. It could take some effort a
 
 Apps need to learn and adapt to arbitrary data structures. Also multiple apps writing to the same data folder could be messy.
 
-## Get Involved
+## A Starting Point
 
-AI has consumed most of the internet data and wants more. Soon, your personal data footprint — like protein or electricity — could matter for daily life.
+Data native is early — the app ecosystem isn't there yet, and rough edges are everywhere. But you can start today.
 
-Data native is far from perfect today, especially on the app ecosystem side — expect rough edges. It's just one approach to help you own and grow your data, which is the more essential goal. Start building your data folder. If there are Data native apps, great. If not, pick apps that export easily, in open formats.
+**Build Your Data Folder**
+
+Pick a place for your notes, photos, documents. Organize it your way. This is yours to keep, regardless of which apps come and go.
+
+**Try Data Native Apps**
+
+Obsidian for notes. Immich for photos. VS Code and Claude Code for coding. They read from your files, write back to your files, and don't lock you in.
+
+**When Data Native Isn't an Option**
+
+Pick apps that export cleanly — in open formats you can read and move.
+
+**If You Build Apps**
+
+Consider going data native. Let users keep what they create.
