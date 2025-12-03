@@ -1,6 +1,6 @@
 ---
 title: 'Data Native'
-description: "You own and grow your data. Apps use it, contribute to it - but don't take a cut."
+description: "You own and grow your data. Apps use it, contribute to it — but don't take a cut."
 pubDate: 'Dec 02 2025'
 heroImage: '/images/data-native.png'
 ---
