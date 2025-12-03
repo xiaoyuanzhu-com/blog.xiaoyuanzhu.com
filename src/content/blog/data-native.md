@@ -43,7 +43,7 @@ As physical and mental labor get automated, what remains distinctly yours — yo
 
 Today most apps work in data silos — each app has its own database, its own format, its own way of organizing things. Want to switch? Export is the best they can offer.
 
-Data Native proposes:
+Data native proposes:
 
 - You own the source of truth for all your data.
 - Data lives in folders of files, in open, common formats.
@@ -111,5 +111,8 @@ Backup, sync, and data protection now fall on users. It could take some effort a
 
 Apps need to learn and adapt to arbitrary data structures. Also multiple apps writing to the same data folder could be messy.
 
-These aren't dealbreakers — but they're not solved yet either.
+## Get Involved
 
+AI has consumed most of the internet data and wants more. Soon, your personal data footprint — like protein or electricity — could matter for daily life.
+
+Data native is far from perfect today, especially on the app ecosystem side — expect rough edges. It's just one approach to help you own and grow your data, which is the more essential goal. Start building your data folder. If there are Data native apps, great. If not, pick apps that export easily, in open formats.
