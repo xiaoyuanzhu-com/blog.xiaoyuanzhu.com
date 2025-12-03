@@ -21,56 +21,71 @@ There's a better way — for users and app builders alike: Data Native.
 
 ---
 
-## Why Your Data Matters More Than Ever
+## Why You Should Own and Grow Your Data
 
-Companies already know what your data is worth.
+Take a step back, why do we even care about data native?
 
-Netflix uses your watch history to recommend your next binge. Spotify builds playlists from your listening patterns. Amazon predicts what you'll buy. Google serves ads based on your searches. They use *your* data to serve *you* better — and profit from it.
+**Own Your Data**
 
-But you can't do the same with your own data.
+Own means control, not custody. Compare: App A stores data on your local disk, but in a proprietary format with poor export. App B lets you choose local or cloud, but uses open formats and exports cleanly. Which one gives you more control?
 
-You can't ask "what books have I read about leadership?" across Kindle, Apple Books, and your handwritten notes. You can't say "find that restaurant I loved in Tokyo three years ago" across Photos, Maps, and journal entries. You can't search your own life.
+Today most apps offer export options, so vendor lock-in isn't the crisis it once was. The remaining issue is fragmentation: your data is scattered across many apps, and even with exports, pulling it together takes effort.
 
-<!-- TODO: Add more concrete examples of what unified personal data + AI enables -->
+**Grow Your Data**
 
-Your data is scattered across dozens of apps — and none of them talk to each other. Companies can query your data. You can't.
+If the AI companion of the future ever comes true, data will be essential — and the more you have, the better it can serve you.
+
+Today, companies use your data in shallow ways: your searches and clicks sell you products, your watch history trains recommendation algorithms. Useful, but limited.
+
+Imagine deeper access: your searches, bookmarks, watch history, emails, calendars, messages, notes, photos, the places you go, the people you meet, your sleep, workouts, travels, habits, thoughts, goals. Today this sounds like data hoarding. Tomorrow, it could be what lets an AI truly know you.
+
+As physical and mental labor get automated, what remains distinctly yours — your tastes, thoughts, connections to the real world — could be more valuable than ever.
 
 ---
 
-## The Inversion
+## What Is Data Native
 
-Data Native is simple:
+Today most apps work in data silos — each app has its own database, its own format, its own way of organizing things. Want to switch? Export is the best they can offer.
+
+Data Native proposes:
+
+- You own the source of truth for all your data.
+- Data lives in folders of files, in open, common formats.
+- You organize folders and structures your way.
+- Apps adapt to your data.
+- Apps can build caches and indexes for performance, but content goes into your data folder whenever possible.
 
 **Your data is the environment. Apps are visitors.**
-
-Not the other way around.
-
-- Your data lives in folders you own, in files you can read
-- Apps adapt to *your* data — not your data to apps
-- Apps can keep caches and indexes — but the source of truth is yours
-- If an app dies tomorrow, your data lives on
-
-The folder becomes the platform. Apps become interchangeable.
 
 ---
 
 ## Why Now
 
-**Apps are disposable. Data isn't.**
+In the past, due to technical complexity and business incentives to retain users, apps tended to work in isolation.
 
-Your notes app might get acqui-hired next quarter. The journaling startup might pivot. That photo organizer might just... stop updating. Apps churn. Your data spans decades.
+**Rich choices of apps.**
+
+How many notes apps can you name? How many fitness apps have you tried? Today we have thriving app ecosystems. Trying a new one should be easy — switching shouldn't require migration at all.
+
+**App lifecycles are shrinking.**
+
+AI coding tools make building apps easier than ever. More apps means more competition — and more shutdowns, pivots, acquihires. Apps come and go. Your data spans decades.
 
 **AI makes adaptive apps possible.**
 
-Apps no longer need rigid schemas. AI can infer your folder structures, understand your naming conventions, tolerate messy organization. The old excuse — "we need to control the format" — no longer holds.
+Apps can now work without rigid schemas. AI can infer folder structures, understand naming conventions, tolerate messy organization. The old excuse — "we need to control the format" — no longer holds.
+
+**AI makes your data more valuable.**
+
+Fragmented data across 50 apps? Your AI sees fragments. Unified data you own? Your AI sees your whole life.
 
 ---
 
-## How It Works
+## How Data Native Works
 
 **Layer 1: Your Data (Permanent)**
 
-Plain files. Human-readable. Organized however you want. Yours forever.
+Plain files. Human-readable. Organized however you want. Yours forever. Open, common formats — text over proprietary databases, markdown over custom formats. Your data should be readable without the app.
 
 **Layer 2: App Caches (Disposable)**
 
@@ -80,9 +95,11 @@ Apps keep indexes, embeddings, thumbnails. All rebuildable. Switch apps? The new
 
 Apps use AI to understand *your* organizational style. They adapt to your structure instead of forcing you into theirs.
 
+**This already works today.** Obsidian stores your notes as plain markdown files. Immich lets you use external photo libraries. These aren't edge cases — they're early adopters of a pattern that's ready for wider adoption.
+
 ---
 
-## "But..."
+## Common Questions
 
 **"Won't apps break if my data is messy?"**
 AI handles variation. Plain files are *less* fragile than app databases, not more.
@@ -92,21 +109,3 @@ For performance, yes. But as caches — not sources of truth. Rebuildable. Dispo
 
 **"What if I'm not technical?"**
 Data Native apps should feel *simpler*. Folders are intuitive. It's today's model — sync conflicts, export formats, migration wizards — that's complicated.
-
----
-
-## The Precedent
-
-We've seen this shift before.
-
-"Cloud-native" wasn't just about running code on AWS. It was a mental model flip: the cloud became the environment, servers became disposable.
-
-Data Native is the same inversion — but personal. Your files are the environment. Apps are just interfaces.
-
----
-
-## What's Next
-
-If you're building in this space — or thinking about it — I'd love to hear from you.
-
-The future of personal software will be built by people who understand: the best way to serve users is to respect that their data was never ours to own.
